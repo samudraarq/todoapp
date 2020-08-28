@@ -6,7 +6,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   background-color: #c4c4c4;
 }
 
@@ -59,9 +59,19 @@ li {
   align-items: center;
 }
 
-.delete-btn {
+.todos__list {
+  border: none;
+  background: inherit;
+  font-size: inherit;
+}
+
+.remove {
   cursor: pointer;
 }
+/* 
+.delete-btn {
+  cursor: pointer;
+} */
 
 /* @media only screen and (max-width: 425px) {
   form {
