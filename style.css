@@ -35,7 +35,7 @@ form {
   flex: 2;
 }
 
-button {
+.submit {
   height: 40px;
   border-radius: 0;
   border: none;
@@ -54,6 +54,13 @@ li {
   list-style: none;
   border: 1px solid #ccc;
   padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  cursor: pointer;
 }
 
 /* @media only screen and (max-width: 425px) {
