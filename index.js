@@ -110,5 +110,6 @@ submit.addEventListener("click", (e) => {
   e.preventDefault();
   if (input.value != "") {
     new list(input.value);
+    input.value = "";
   }
 });
